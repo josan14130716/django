@@ -1,0 +1,16 @@
+
+py -m venv myworld  
+myworld\Scripts\activate.bat ## result will be like this (myworld) C:\Users\Your Name>
+(myworld) C:\Users\Your Name>py -m pip install Django ### to install django in virtual environment
+py --version 
+(myworld) C:\Users\Your Name>django-admin --version ## check version
+django-admin startproject my_tennis_club ## to start a project
+py manage.py runserver
+py manage.py startapp members  ## to star an app called members
+
+
+
+
+
+
+
